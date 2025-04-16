@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="phonebook.tests.LoginTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-04-14T18:38:28.481Z" hostname="DESKTOP-GHNP14N" time="15.409">
+  <properties/>
+  <testcase name="loginExistedUserObject1PositiveTest" classname="phonebook.tests.LoginTests" time="2.216"/>
+  <testcase name="loginExistedUserObject2PositiveTest" classname="phonebook.tests.LoginTests" time="2.031"/>
+  <testcase name="loginExistedUserPositiveTest" classname="phonebook.tests.LoginTests" time="1.947"/>
+  <system-out><![CDATA[20:38:24.620 [Test worker] INFO  phonebook.core.TestBase -- logger info: loginExistedUserObject1PositiveTest
+20:38:24.621 [Test worker] WARN  phonebook.core.TestBase -- logger warn
+20:38:24.621 [Test worker] ERROR phonebook.core.TestBase -- logger error
+20:38:24.621 [Test worker] DEBUG phonebook.core.TestBase -- logger debug
+20:38:30.699 [Test worker] INFO  phonebook.core.TestBase -- PASSED: loginExistedUserObject1PositiveTest
+20:38:30.699 [Test worker] INFO  phonebook.core.TestBase -- logger info=========================================================
+20:38:31.489 [Test worker] INFO  phonebook.core.TestBase -- logger info: loginExistedUserObject2PositiveTest
+20:38:31.490 [Test worker] WARN  phonebook.core.TestBase -- logger warn
+20:38:31.490 [Test worker] ERROR phonebook.core.TestBase -- logger error
+20:38:31.490 [Test worker] DEBUG phonebook.core.TestBase -- logger debug
+20:38:37.301 [Test worker] INFO  phonebook.core.TestBase -- PASSED: loginExistedUserObject2PositiveTest
+20:38:37.302 [Test worker] INFO  phonebook.core.TestBase -- logger info=========================================================
+20:38:38.111 [Test worker] INFO  phonebook.core.TestBase -- logger info: loginExistedUserPositiveTest
+20:38:38.112 [Test worker] WARN  phonebook.core.TestBase -- logger warn
+20:38:38.112 [Test worker] ERROR phonebook.core.TestBase -- logger error
+20:38:38.112 [Test worker] DEBUG phonebook.core.TestBase -- logger debug
+20:38:43.893 [Test worker] INFO  phonebook.core.TestBase -- PASSED: loginExistedUserPositiveTest
+20:38:43.893 [Test worker] INFO  phonebook.core.TestBase -- logger info=========================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

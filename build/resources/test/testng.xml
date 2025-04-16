@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QuickStart" verbose="1">
+<!--    name - любое понятное, verbose - уровень логирования (1 минимальный)-->
+    <test name="Navigate">
+        <classes>
+            <class name="phonebook.tests.HomePageTests"/>
+        </classes>
+    </test>
+
+</suite>

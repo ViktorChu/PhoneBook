@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="phonebook.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-14T18:38:23.817Z" hostname="DESKTOP-GHNP14N" time="0.023">
+  <properties/>
+  <testcase name="isHomeComponentPresentPositiveTest" classname="phonebook.tests.HomePageTests" time="0.023"/>
+  <system-out><![CDATA[20:38:18.258 [Test worker] INFO  phonebook.core.TestBase -- logger info: isHomeComponentPresentPositiveTest
+20:38:18.259 [Test worker] WARN  phonebook.core.TestBase -- logger warn
+20:38:18.260 [Test worker] ERROR phonebook.core.TestBase -- logger error
+20:38:18.260 [Test worker] DEBUG phonebook.core.TestBase -- logger debug
+20:38:23.843 [Test worker] INFO  phonebook.core.TestBase -- PASSED: isHomeComponentPresentPositiveTest
+20:38:23.844 [Test worker] INFO  phonebook.core.TestBase -- logger info=========================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

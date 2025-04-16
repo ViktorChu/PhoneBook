@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="phonebook.tests.AddContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-14T18:38:50.545Z" hostname="DESKTOP-GHNP14N" time="2.773">
+  <properties/>
+  <testcase name="addContactPositiveTest" classname="phonebook.tests.AddContactTests" time="2.773"/>
+  <system-out><![CDATA[20:38:44.689 [Test worker] INFO  phonebook.core.TestBase -- logger info: addContactPositiveTest
+20:38:44.690 [Test worker] WARN  phonebook.core.TestBase -- logger warn
+20:38:44.690 [Test worker] ERROR phonebook.core.TestBase -- logger error
+20:38:44.690 [Test worker] DEBUG phonebook.core.TestBase -- logger debug
+@BeforeMethod in Test
+@Test
+РљРѕР»-РІРѕ РєРѕРЅС‚Р°РєС‚РѕРІ Р”Рћ С‚РµСЃС‚Р°: 8
+20:38:52.942 [Test worker] INFO  phonebook.core.BaseHelper -- РџР°СѓР·Р° СЃСЂР°Р±РѕС‚Р°Р»Р°: 100 СЃРµРєСѓРЅРґ
+РљРѕР»-РІРѕ РєРѕРЅС‚Р°РєС‚РѕРІ РџРћРЎР›Р• С‚РµСЃС‚Р°: 9
+@AfterMethod in test
+20:38:53.320 [Test worker] INFO  phonebook.core.TestBase -- PASSED: addContactPositiveTest
+20:38:53.320 [Test worker] INFO  phonebook.core.TestBase -- logger info=========================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

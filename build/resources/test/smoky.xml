@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoky" verbose="1">
+    <!--    name - любое понятное, verbose - уровень логирования (1 минимальный)-->
+    <test name="Features">
+        <classes>
+            <class name="phonebook.tests.HomePageTests"/>
+            <class name="phonebook.tests.LoginTests">
+                <methods>
+                    <exclude name=".*Negative.*"> </exclude>
+                </methods>
+
+            </class>
+            <class name="phonebook.tests.AddContactTests">
+
+                <methods>
+                    <include name=".*Positive.*"> </include>
+                </methods>
+
+            </class>
+            <class name="phonebook.tests.DeleteContactTests">
+                <methods>
+                    <include name=".*Positive.*"></include>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
