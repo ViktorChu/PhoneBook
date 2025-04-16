@@ -11,6 +11,10 @@ import phonebook.core.TestBase;
 public class DeleteContactTests extends TestBase {
     @BeforeMethod
     public void precondition() {
+        if (!app.getUserHelper().isLoginLinkPresent()){
+            app.getUserHelper().clickOnSignOutButton();
+        }
+        
         app.getUserHelper().login("portishead@gmail.com", "Password@1");
         app.getUserHelper().checkSuccessLogin();
         //app.getContactHelper().addNewContact(app.getContactHelper().CONTACT_NAME);
